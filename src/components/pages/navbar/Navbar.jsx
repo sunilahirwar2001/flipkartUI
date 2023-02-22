@@ -65,7 +65,7 @@ const Navbar = () => {
                   <Link to="/">Wishlists</Link>
                 </li>
                 <li>
-                  <Link to="/">log out</Link>
+                  <Link to="/logout">LogOut</Link>
                 </li>
             
               </ul>

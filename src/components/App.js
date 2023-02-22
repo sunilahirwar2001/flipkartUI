@@ -16,6 +16,7 @@ import LogIn from './pages/logInPage/LogIn';
 import SignUp from './pages/signUpPage/SignUp';
 import Payment from './pages/PaymetPage/Payment';
 import Confirm from './pages/confirmOrder/Confirm';
+import LogOut from './pages/navbar/LogOut';
 
 const router = createBrowserRouter([
   {
@@ -65,7 +66,8 @@ useEffect(()=>
       <Route exact path="/viewproducts/:id" element={<ViewProduct/>}/>
       <Route exact path="/catProducts/:type" element={<CatProducts/>}/>
       <Route exact path="/cart" element={<CartContainer/>}/>
-      <Route exact path="/login" element={<LogIn/>}/>
+      <Route exact path="/login" element={<LogIn/>}/> 
+      <Route exact path ="/logout" element={<LogOut/>} />
       <Route exact path="/signup" element={<SignUp/>}/>
       <Route exact path="/payment" element={<Payment/>}/>
       <Route exact path="/confirm" element={<Confirm/>}/>
